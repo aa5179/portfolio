@@ -263,7 +263,7 @@ function App() {
               </h2>
             </div>
             <img
-              src="src/assets/self.png"
+              src="/assets/self.png"
               alt=""
               className="self slide-up-image"
             />
@@ -279,10 +279,10 @@ function App() {
                 STUDENT
               </h2>
             </div>
-            <img src="src/assets/self.png" alt="" className="self invisible" />
+            <img src="/assets/self.png" alt="" className="self invisible" />
           </>
         )}
-        <img src="src/assets/t1.png" alt="" className="trans1" />
+        <img src="/assets/t1.png" alt="" className="trans1" />
       </div>
       <div className="second">
         <h1 className="head karantina-bold">
@@ -301,9 +301,9 @@ function App() {
         </div>
       </div>
       <div className="third">
-        <img src="src/assets/t2.png" alt="" className="trans2" />
+        <img src="/assets/t2.png" alt="" className="trans2" />
         <video
-          src="src/assets/3068-165796695_small.mp4"
+          src="/assets/3068-165796695_small.mp4"
           className="vid"
           autoPlay
           loop
@@ -322,51 +322,35 @@ function App() {
           <div className="skillicons">
             <div className="desktop-skills">
               <div className="skill-row row-1">
+                <img src="/assets/html.png" alt="HTML" className="skill-icon" />
+                <img src="/assets/css.png" alt="CSS" className="skill-icon" />
                 <img
-                  src="src/assets/html.png"
-                  alt="HTML"
-                  className="skill-icon"
-                />
-                <img
-                  src="src/assets/css.png"
-                  alt="CSS"
-                  className="skill-icon"
-                />
-                <img
-                  src="src/assets/js.png"
+                  src="/assets/js.png"
                   alt="JavaScript"
                   className="skill-icon"
                 />
                 <img
-                  src="src/assets/react.png"
+                  src="/assets/react.png"
                   alt="React"
                   className="skill-icon"
                 />
                 <img
-                  src="src/assets/python.png"
+                  src="/assets/python.png"
                   alt="Python"
                   className="skill-icon"
                 />
-                <img
-                  src="src/assets/java.png"
-                  alt="Java"
-                  className="skill-icon"
-                />
-                <img src="src/assets/c.png" alt="C#" className="skill-icon" />
+                <img src="/assets/java.png" alt="Java" className="skill-icon" />
+                <img src="/assets/c.png" alt="C#" className="skill-icon" />
               </div>
               <div className="skill-row row-2">
+                <img src="/assets/c++.png" alt="C++" className="skill-icon" />
                 <img
-                  src="src/assets/c++.png"
-                  alt="C++"
-                  className="skill-icon"
-                />
-                <img
-                  src="src/assets/mongodb.png"
+                  src="/assets/mongodb.png"
                   alt="MongoDB"
                   className="skill-icon"
                 />
                 <img
-                  src="src/assets/tailwind.png"
+                  src="/assets/tailwind.png"
                   alt="Tailwind CSS"
                   className="skill-icon"
                 />
@@ -375,61 +359,61 @@ function App() {
 
             <div className="mobile-skills">
               <img
-                src="src/assets/html.png"
+                src="/assets/html.png"
                 alt="HTML"
                 className="skill-icon circle-icon"
                 data-position="1"
               />
               <img
-                src="src/assets/css.png"
+                src="/assets/css.png"
                 alt="CSS"
                 className="skill-icon circle-icon"
                 data-position="2"
               />
               <img
-                src="src/assets/js.png"
+                src="/assets/js.png"
                 alt="JavaScript"
                 className="skill-icon circle-icon"
                 data-position="3"
               />
               <img
-                src="src/assets/react.png"
+                src="/assets/react.png"
                 alt="React"
                 className="skill-icon circle-icon"
                 data-position="4"
               />
               <img
-                src="src/assets/python.png"
+                src="/assets/python.png"
                 alt="Python"
                 className="skill-icon circle-icon"
                 data-position="5"
               />
               <img
-                src="src/assets/java.png"
+                src="/assets/java.png"
                 alt="Java"
                 className="skill-icon circle-icon"
                 data-position="6"
               />
               <img
-                src="src/assets/c.png"
+                src="/assets/c.png"
                 alt="C#"
                 className="skill-icon circle-icon"
                 data-position="7"
               />
               <img
-                src="src/assets/c++.png"
+                src="/assets/c++.png"
                 alt="C++"
                 className="skill-icon circle-icon"
                 data-position="8"
               />
               <img
-                src="src/assets/mongodb.png"
+                src="/assets/mongodb.png"
                 alt="MongoDB"
                 className="skill-icon circle-icon"
                 data-position="9"
               />
               <img
-                src="src/assets/tailwind.png"
+                src="/assets/tailwind.png"
                 alt="Tailwind CSS"
                 className="skill-icon circle-icon"
                 data-position="10"
@@ -439,7 +423,7 @@ function App() {
 
           <div className="ouija-buttons">
             <button className="ouija-btn yes-btn" onClick={toggleProjectsPage}>
-              <img src="src/assets/Rituals Performed.png" alt="Projects" />
+              <img src="/assets/Rituals Performed.png" alt="Projects" />
             </button>
             <button
               className="ouija-btn no-btn"
@@ -452,23 +436,23 @@ function App() {
                 document.body.removeChild(link);
               }}
             >
-              <img src="src/assets/The Grimoire.png" alt="Resume" />
+              <img src="/assets/The Grimoire.png" alt="Resume" />
             </button>
             <button
               className="ouija-btn goodbye-btn"
               onClick={toggleSocialLinks}
             >
-              <img src="src/assets/Spirit Gateways.png" alt="Social Links" />
+              <img src="/assets/Spirit Gateways.png" alt="Social Links" />
             </button>
           </div>
         </div>
         <div className="t1">
-          <img src="src/assets/transition1.png" alt="" className="t1" />
+          <img src="/assets/transition1.png" alt="" className="t1" />
         </div>
       </div>
       <div className="fourth">
         <img
-          src="src/assets/transition2.png"
+          src="/assets/transition2.png"
           alt=""
           className="t1 transition-above"
         />
@@ -765,7 +749,7 @@ function App() {
                   className="social-link github"
                 >
                   <div className="social-icon">
-                    <img src="/src/assets/git.png" alt="GitHub" />
+                    <img src="/assets/git.png" alt="GitHub" />
                   </div>
                   <div className="social-info">
                     <h3>GitHub</h3>
@@ -780,7 +764,7 @@ function App() {
                   className="social-link linkedin"
                 >
                   <div className="social-icon">
-                    <img src="/src/assets/linkedin.png" alt="LinkedIn" />
+                    <img src="/assets/linkedin.png" alt="LinkedIn" />
                   </div>
                   <div className="social-info">
                     <h3>LinkedIn</h3>
@@ -795,7 +779,7 @@ function App() {
                   className="social-link instagram"
                 >
                   <div className="social-icon">
-                    <img src="/src/assets/insta.png" alt="Instagram" />
+                    <img src="/assets/insta.png" alt="Instagram" />
                   </div>
                   <div className="social-info">
                     <h3>Instagram</h3>
@@ -808,7 +792,7 @@ function App() {
                   className="social-link email"
                 >
                   <div className="social-icon">
-                    <img src="/src/assets/mail.png" alt="Email" />
+                    <img src="/assets/mail.png" alt="Email" />
                   </div>
                   <div className="social-info">
                     <h3>Email</h3>
