@@ -195,6 +195,7 @@ body {
   .self {
     width: 100vw;
     bottom: -2vh;
+    left:12%;
   }
   .trans1 {
     position: absolute;
