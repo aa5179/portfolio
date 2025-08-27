@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./LoadingPage.css";
-import candleImage from "/assets/candle.png";
+import candleImage from "./assets/candle.png";
 
 const LoadingPage = ({ onLoadingComplete }) => {
   const [progress, setProgress] = useState(0);
