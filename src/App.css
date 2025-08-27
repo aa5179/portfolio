@@ -204,7 +204,7 @@ body {
 }
 .second {
   background-color: black;
-  background: url(src/assets/blood.png) no-repeat center center/contain;
+  background: url(/assets/blood.png) no-repeat center center/contain;
   width: 100%;
   height: 100vh;
   z-index: 1;
@@ -331,7 +331,7 @@ body {
 }
 .third {
   height: 100vh;
-  background: url(src/assets/wallpaper.png) no-repeat center center/cover;
+  background: url(/assets/wallpaper.png) no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,7 +364,7 @@ body {
   z-index: 0;
 }
 .ouija {
-  background: url(src/assets/ouija.png) no-repeat center center;
+  background: url(/assets/ouija.png) no-repeat center center;
   width: 80%;
   height: 65%;
   display: flex;
@@ -422,7 +422,7 @@ body {
 }
 @media (max-width: 768px) {
   .third {
-    background: url(src/assets/kaal.jpeg) no-repeat center center/cover;
+    background: url(/assets/kaal.jpeg) no-repeat center center/cover;
     height: 100vh;
     position: relative;
     display: flex;
@@ -744,11 +744,11 @@ body {
 .row-2 .skill-icon:nth-child(3) {
   transform: translateY(-5vh) rotate(18deg);
 }
-.skill-icon[src="src/assets/tailwind.png"] {
+.skill-icon[src="/assets/tailwind.png"] {
   width: 3.8vw;
   height: 4.8vh;
 }
-.skill-icon[src="src/assets/mongodb.png"] {
+.skill-icon[src="/assets/mongodb.png"] {
   height: 8vh;
 }
 @media (max-width: 768px) {
@@ -784,11 +784,11 @@ body {
   .row-2 .skill-icon:nth-child(3) {
     transform: none;
   }
-  .skill-icon[src="src/assets/tailwind.png"] {
+  .skill-icon[src="/assets/tailwind.png"] {
     width: 50px;
     height: 50px;
   }
-  .skill-icon[src="src/assets/mongodb.png"] {
+  .skill-icon[src="/assets/mongodb.png"] {
     height: 50px;
   }
 }
@@ -944,7 +944,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("src/assets/flame.png") no-repeat center center;
+  background: url("/assets/flame.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   filter: url(#fire-wobble);
