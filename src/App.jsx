@@ -297,7 +297,7 @@ function App() {
             React crafting simple yet engaging designs while steadily sharpening
             my skills for the road ahead.
           </h4>
-          <img src="src/assets/lantern.png" alt="" className="lantern" />
+          <img src="/assets/lantern.png" alt="" className="lantern" />
         </div>
       </div>
       <div className="third">
